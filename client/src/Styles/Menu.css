@@ -1,0 +1,118 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.filter
+{
+    display: flex;
+    border: 2px solid black;
+}
+
+.filter1
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 15%;
+    padding: 10px 20px;
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+     color: #FF5F15;
+    position: absolute;
+
+}
+
+.filter2
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 45%;
+    padding: 10px 20px;
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+     color: #FF5F15;
+    position: absolute;
+
+}
+
+
+.filter3
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 75%;
+    padding: 10px 20px;
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: #FF5F15;
+    position: absolute;
+    font-weight: "bold";
+}
+
+
+.menusets
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+
+.m1
+{
+    margin-left: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 10px;
+    width: 25%;
+}
+
+.m1 img
+{
+    margin-left: 20%;
+    width: 67%;
+}
+
+.pheadings
+{
+    margin-left: 28%;
+}
+
+.m1 h5
+{
+    color: lightgray;
+    font-size: 20px;
+    margin-left: 35%;
+
+}
+
+.m1 h3 
+{
+    margin-left: 35%;
+}
+
+.pprice
+{
+    margin-left: 5%;
+    
+}
+
+.cardsicons
+{
+    display: flex;
+}
+
+.plus
+{
+    margin-left: 45%;
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+
+}

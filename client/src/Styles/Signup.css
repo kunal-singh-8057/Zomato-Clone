@@ -1,0 +1,120 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+.formbackground
+{
+    position: absolute;
+}
+
+.leave
+{
+    width: 15%;
+    transform: rotate(45deg);
+    margin-left: 32%;
+    margin-top: 30%;
+    position: absolute;
+}
+
+.menu1
+{
+    width: 5%;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 45%;
+}
+
+.menu2
+{
+    width: 5%;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 35%;
+}
+
+.menu3
+{
+     width: 5%;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 15%;
+}
+
+.menu4
+{
+    width: 5%;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 35%;
+}
+
+.platform1 
+{
+    border-radius: 5px;
+    border: 3px dashed darkgoldenrod;
+    width: 25%;
+    height: 78vh;
+    margin-left: 65%;
+    margin-top: 10%;
+}
+
+.platform1 h1 
+{
+    margin-left: 35%;
+}
+
+.dish1
+{
+    width: 15%;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 5%;
+}
+
+.platform1 input
+{
+    background-color: lightyellow;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    margin-top: 8%;
+    height: 5vh;
+    margin-left: 5%;
+    width:80%;
+}
+
+.platform1 button
+{
+    background-color: darkgoldenrod;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 3%;
+    margin-left: 35%;
+
+}
+
+.label1
+{
+    margin-left: 15%;
+}
+
+.label2
+{
+    margin-left: 20%;
+}
+
+.logbtn
+{
+    text-decoration: none;
+    color: black;
+}
+
+.logbtn:hover
+{
+    color: darkgoldenrod;
+}

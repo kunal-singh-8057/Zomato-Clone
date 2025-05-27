@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.blogcontainer
+{
+    margin-top: 2%;
+    margin-left: 40%;
+}
+
+.blogcontainer button
+{
+    background-color: white;
+    color: #FF5F15;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+    margin-left: 5%;
+}
+
+.blogcontainer button:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.blogcontainer h1
+{
+    font-size: 65px;
+    margin-top: 3%;
+    margin-left: -5%;
+    position: absolute;
+}
+
+.blogcontainer img
+{
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.blogdivs
+{
+    display: flex;
+    gap: 10%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.blogsets
+{
+    width: 25%;
+    height: 47vh;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.blogsets h1
+{
+    margin-left: 17%;
+}
+
+
+.blogsetimg
+{
+    width: 100%;
+}
+
+
+.blogbtn
+{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 30px;
+    margin-top: 1%;
+    position: absolute;
+    margin-left: 8%;
+}
+
+
+.blogbtn:hover
+{
+    color: #FF5F15;
+}

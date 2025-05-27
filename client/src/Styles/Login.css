@@ -1,0 +1,17 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.berry
+{
+    width: 45%;
+}
+
+.berry1
+{
+    width: 45%;
+    transform: rotate(90deg);
+    margin-left: 8%;
+}

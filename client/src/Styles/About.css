@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.trustedsection p
+{
+    color: lightgray;
+    font-size: 30px;
+    margin-left: 38%;
+    margin-top: -1%;
+    position: absolute;
+}
+
+.companiesset
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.companiesset img
+{
+    width: 15%;
+}
+
+
+.aboutext h1
+{
+    font-size: 50px;
+    margin-left: 40%;
+}
+
+.aboutext h2
+{
+    font-size: 50px;
+    margin-left: 38%;
+}
+
+.aboutimg
+{
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 1%;
+}
