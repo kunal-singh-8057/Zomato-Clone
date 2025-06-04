@@ -36,7 +36,7 @@ const login = async(req,res)=>{
     const token = await jwt.sign({_id:user._id},JWT_SECRETE);
 
     res.status(201).cookie("token",token,{
-        httpOnly:true,
+        httpOnly:false,
         secure: false, // Set to true in production with HTTPS
         sameSite: "lax",
         maxAge:60*60*1000
@@ -53,14 +53,14 @@ const viewusers = async(req,res)=>{
 
 const usersbyid = async(req,res)=>
 {
-    const id = req.params.id;
+    const id = req.params.id
     await userModels.findById(id)
-    .then(user=>res.json(user))
-    .catch(err=>res.json(err))
+   .then(user=>res.json(user))
+   .catch(err=>res.json(err))
 }
 
 const deleteuser = async(req,res)=>{
-    const id = req.params.id;
+    const id = req.params.id
     let del = await userModels.findByIdAndDelete(id);
     res.status(201).json(del);
 }
@@ -71,5 +71,22 @@ const verify = async(req,res)=>{
 }
 
 
+const getcurrentuser = async(req,res)=>{
 
-module.exports = {register,login,viewusers,usersbyid,deleteuser,verify}
+    const token = req.cookies.token; // cookie-parser middleware needed
+  if (!token) return res.status(401).json({ error: 'Unauthorized' });
+
+  try {
+    const decoded = jwt.verify(token, JWT_SECRETE);
+    const userId = decoded._id;
+    // Fetch user data with userId, then return
+    res.json({ userId });
+  } catch (err) {
+    res.status(401).json({ error: 'Invalid token' });
+  }
+  
+}
+
+
+
+module.exports = {register,login,viewusers,usersbyid,deleteuser,verify,getcurrentuser}

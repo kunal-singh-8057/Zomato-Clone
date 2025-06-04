@@ -70,6 +70,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px inset;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px inset;
     border-radius: 5px;
     padding: 5px 10px;
+    margin-top: -1%;
 }
 
 
@@ -83,4 +84,16 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px inset;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px inset;
     border-radius: 5px;
     padding: 5px 10px;
+}
+
+
+.count
+{
+    position: absolute;
+    background-color: #FF5F15;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin-left: 32%;
+    margin-top: -2.1%;
 }

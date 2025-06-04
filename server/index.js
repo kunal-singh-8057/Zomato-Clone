@@ -9,6 +9,8 @@ const admineRoutes = require("../server/Routes/AdmineRoutes");
 const contactRoutes = require("../server/Routes/contactRoutes");
 const blogRoutes = require("../server/Routes/BlogRoutes");
 const directRoutes = require("../server/Routes/DirectRoutes");
+const orderRouter = require("../server/Routes/OrderRoutes");
+const paymentRoutes = require("../server/Routes/PaymentRoutes");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const cookieparser = require("cookie-parser");
@@ -29,7 +31,8 @@ app.use("/api/v1",contactRoutes);
 app.use("/api/v1",admineRoutes);
 app.use("/api/v1",blogRoutes);
 app.use("/api/v1",directRoutes);
-
+app.use("/api/v1",orderRouter);
+app.use("/api/v1",paymentRoutes);
 
 
 ConnectDB();

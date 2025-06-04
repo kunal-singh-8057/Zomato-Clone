@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import '../Styles/Home.css'
 import Navbar from './Navbar'
 import leave from '../Assets/leaf.png'
@@ -7,6 +7,9 @@ import homeberry from '../Assets/berry.png'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
+
+ 
+
   return (
     <>
    <Navbar/>
@@ -40,6 +43,8 @@ const Home = () => {
     </div>
 
    </div>
+
+
 
     </>
   )

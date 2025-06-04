@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.billingpages
+{
+    border-radius: 10px;
+    border: 2px dotted darkgoldenrod;
+    width: 25%;
+    height: 85vh;
+    margin-left: 65%;
+    margin-top: 3%;
+
+}
+
+.billingpages h1
+{
+    color: darkgoldenrod;
+    position: absolute;
+    margin-left: 5%;
+}
+
+.billingpages input
+{
+    height: 5vh;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    margin-top: 8%;
+    margin-left: 3%;
+    width: 95%;
+}
+
+
+.billingpages button
+{
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.imgbilling
+{
+    position: absolute;
+}
+
+.billingleave
+{
+    width: 98%;
+    position: absolute;
+}

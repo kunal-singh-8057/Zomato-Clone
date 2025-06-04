@@ -5,12 +5,16 @@ import menuimg1 from '../Assets/dish/4.png'
 import menuimg2 from '../Assets/dish/2.png'
 import menuimg3 from '../Assets/dish/3.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { faPlus, faV } from '@fortawesome/free-solid-svg-icons';
+import {useDispatch} from 'react-redux'
+
+import {add} from '../Redux/CartSlice'
 import Axios from 'axios'
 
 const Menu = () => {
 
   const[users,setusers] = useState([]);
+  const dispatch = useDispatch();
 
   useEffect(()=>{
     Axios.get("http://localhost:4500/api/v1/viewproducts")
@@ -51,8 +55,9 @@ const Menu = () => {
   }
 
 
-  const fun = ()=>{
+  const fun = (user)=>{
     alert("Add To Cart Successfully")
+    dispatch(add(user))
   }
 
   return (
@@ -79,7 +84,7 @@ return(
 
    
 
-      <div className='m1'>
+      <div className='m1' key={user._id}>
         <img src={menuimg1}></img>
         <br></br>
         <h1 className='pheadings'>{user.p_name}</h1>
@@ -90,7 +95,7 @@ return(
         <br></br>
         <div className='cardsicons'>
         <h1 className='pprice'>Rs:{user.p_price}</h1>
-        <FontAwesomeIcon icon={faPlus} className='plus' onClick={fun}/>
+        <FontAwesomeIcon icon={faPlus} className='plus' onClick={()=>fun(user)}/>
         </div>
       </div>
   

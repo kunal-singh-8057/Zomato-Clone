@@ -18,12 +18,10 @@ const viewproducts = async(req,res)=>{
 
 
 const viewbyid = async(req,res)=>{
-    const id = req.params.id
-    const view = await productmodels.findById(id)
-    res.status(201).json({
-        success:true,
-        view
-    })
+    const {id} = req.params
+     await productmodels.findById(id)
+    .then(user=>res.json(user))
+    .catch(error=>res.json(error))
 }
 
 

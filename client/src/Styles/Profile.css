@@ -4,15 +4,61 @@
     padding: 0;
 }
 
-.profilecontainer img
+.profileform
+{
+    display: block;
+}
+
+
+
+.profileform img
 {
     width: 15%;
-    border: 2px solid black;
+    border: 2px solid darkgoldenrod;
     border-radius: 50%;
     margin-left: 40%;
 }
 
-.userdetailsdisplay
+.inputblocks
 {
-    display: flex;
+    margin-left: 12%;
+}
+
+.profileform input
+{
+    padding: 10px 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-left: 5%;
+    border: none;
+    margin-top: 5%;
+}
+
+.profileform button
+{
+    border: none;
+    color: white;
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+.profilelog
+{
+    margin-top: -1%;
+    position: absolute;
+}
+
+.orderbtns
+{
+    border: none;
+    color: white;
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-decoration: none;
 }

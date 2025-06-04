@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.cartpagedesign
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.cartpagesets
+{
+    margin-left: 10%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 10px;
+    width: 25%;
+}
+
+.cartpagesets img
+{
+    margin-left: 15%;
+}
+
+.cartpagesets h1 
+{
+    margin-left: 22%;
+
+}
+
+.cartpagedesign h2 
+{
+    margin-left: 40%;
+    margin-top: 8%;
+}
+
+.cartpagedesign button
+{
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 17%;
+}
+
+.buybtns
+{
+     background-color: darkgoldenrod;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 17%;
+    text-decoration: none;   
+}
