@@ -9,8 +9,6 @@
 ![1749050746854](https://github.com/user-attachments/assets/dd2455d2-2ba9-496f-b76d-f12d5be90aa8)
 
 #video
-https://github.com/user-attachments/assets/f4870c82-d4b2-4f1d-a0b3-8134142f4997
-
-
+https://github.com/user-attachments/assets/42fad524-3256-4b14-8088-52abda400fc5
 
 
